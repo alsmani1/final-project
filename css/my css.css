@@ -1,0 +1,100 @@
+html{
+     background-image: url(download.jpg);
+     height: 50%;
+}
+body{
+	color: gold;
+	font-family: monospace;
+}
+h1:hover{
+   font-size: 40px;
+   transition-duration: 0.8s;
+}
+header img{
+	width: 20%;
+	border-radius: 100%;
+    display: inline;
+    float: left;
+}
+header{
+	background-color: darkolivegreen;
+	font-family: sans-serif;
+	margin: -7px;
+	font-size: 200%;
+	color: white;
+    column-count: 1;
+    text-align: left;
+    width: 100vw; 
+    background-image: url(head.jpg);
+}
+nav a{
+	font-size: 80% ;
+	margin-left: 5%;
+	text-decoration-line: none;
+	color: white;
+	width: 100%;
+	position: static;
+	border: solid 1px yellow;
+	border-radius: 15%;
+}
+a:hover{
+	color: limegreen;
+	border: solid 1px yellow;
+	background-color: grey;
+	transition-duration: 0.5s;
+}
+.in{
+		color: limegreen;
+	border: solid 1px yellow;
+	background-color: grey;
+}
+footer{
+	font-size: 10px ;
+	color: black;
+ background-color: lightcyan;
+ width: 100vw;
+ margin-top: 70vh;
+ margin-left: -7px;
+}
+div{
+ margin-bottom: -100px;
+}
+@media screen and (min-width:740px){
+	
+	html{
+		font-size: 150%;
+	}
+	header img{
+		border-radius: 0%;
+	}
+	nav a{
+		font-size: 80%;
+		display: block;
+		border-radius: 0%;
+	}
+}
+@media screen and (min-width:970px){
+       html{
+       	font-size: 200%;
+       }
+        header img{
+        	width: 100%;
+        }
+		nav a{
+		font-size: 70%;
+		display: block;
+		border-radius: 0%;
+		width: 100%;
+		margin-left: 0%;
+	}
+	header{
+		width: 30vw;
+		height: 100%;
+	}
+	.co{
+		margin-left: 32%;
+		margin-top: -700px;
+		float: left;
+
+	}
+}
